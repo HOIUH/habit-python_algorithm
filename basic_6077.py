@@ -5,12 +5,15 @@ print('random값: ', rand)
 
 total = 0
 
+# 1부터 rand값까지의 짝수합 구하기
+# for문 버전
 '''
 for i in range(1, rand+1):
     if i%2 == 0:
         total += i
 '''
 
+# while문 버전
 i = 1
 while i < rand+1:
     if i%2 == 0:
