@@ -1,3 +1,6 @@
+# 20220515
+# 2021 카카오 채용연계형 인턴십 > 숫자 문자열과 영단어
+
 def solution(s):
     words = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
     #nums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
