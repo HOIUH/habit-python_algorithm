@@ -1,0 +1,17 @@
+# 221022
+# 최댓값과 최솟값
+# https://school.programmers.co.kr/learn/courses/30/lessons/12939
+
+def solution(s):
+    s = list(map(int, s.split()))
+    return str(min(s))+' '+str(max(s))
+
+    '''
+    # 나의 풀이
+    answer = ''
+    s = s.split(' ')
+    tmp = []
+    for elem in s:
+        tmp.append(int(elem))
+    tmp.sort()
+    return str(tmp[0])+' '+str(tmp[-1])
